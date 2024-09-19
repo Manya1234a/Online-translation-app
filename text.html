@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="translator-container">
+       
+            <h2>Translatify</h2>
+            
+          
+            
+            <div class="selectors">
+                <div>
+                    <label for="source-language">Source Language:</label>
+                    <select id="source-language" class="custom-select">
+                        <!-- Language options will be added here -->
+                    </select>
+                </div>
+                <div>
+                    <label for="target-language">Target Language:</label>
+                    <select id="target-language" class="custom-select">
+                        <!-- Language options will be added here -->
+                    </select>
+                </div>
+            </div>
+
+        <div class="language-select">
+            <div class="language-option">English</div>
+            <div class="language-icon">
+                <img src="/images/switch.png" alt="Switch">
+            </div>
+            <div class="language-option">Spanish</div>
+        </div>
+        <div class="translator-section">
+
+        <div class="translation-box">
+            <textarea class="text-to-translate" placeholder="Enter text"></textarea>
+            
+            <div class="translation-icons">
+                <button class="icon-btn">
+                    <img class="speak" src="/images/speaker.png" alt="Speak">
+                </button>
+                
+                <button class="icon-btn mics-btn">
+                    <a href="voice.html"><img src="/images/mic.png" alt="micc"></a>
+                </button>
+            </div>
+        </div>
+
+        <div class="translated-box">
+            <textarea class="translate-text" readonly></textarea>
+            <button class="icon-btn copy-btn">
+                <img src="/images/copy.png" alt="Copy">
+            </button>
+            <div class="translation-icons">
+                <button class="icon-btn">
+                    <img class="speak" src="/images/speaker.png" alt="Speak">
+                </button>
+                
+                <button class="icon-btn share-btn">
+                    <img src="/images/share.png" alt="Share">
+                </button>
+              
+            </div>
+        </div>
+        
+    </div>
+    <div class="buttons-row">
+        
+       
+
+        <button id="open-history" class="icon-btn">
+            <img class="hist" src="/images/history.png" alt="History">
+        </button>
+        <!--<button id="save-translation" class="icon-btn">
+            <img class="save-icon" src="/images/save.png" alt="Save">
+        </button>-->
+        
+    </div>
+
+    <!-- Modal for displaying translation history -->
+    <div id="history-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Translation History</h3>
+            <ul id="history-list-modal">
+                <!-- History items will appear here -->
+            </ul>
+            <button id="clear-history-modal">Clear History</button>
+            <button id="download-history-modal">Download History</button>
+        </div>
+    </div>
+
+
+    
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
