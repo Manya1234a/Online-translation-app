@@ -1,7 +1,5 @@
 # Online Translation App
 
-![Translator App](path-to-image) <!-- Add a screenshot or gif of the project here -->
-
 ## Overview
 
 The **Online Translation App** is a modern web application offering both **voice** and **text translation** features. It includes a neumorphic design and real-time translation capabilities, built using HTML, CSS, and JavaScript. The app supports multiple languages and features interactive elements for a seamless user experience.
@@ -27,15 +25,18 @@ The **Online Translation App** is a modern web application offering both **voice
 
 ### 1. Home Page
 Navigate through the app’s features with links to the **Voice Translator** and **Text Translator** pages. Includes interactive neumorphic buttons.
+![Translator App](images/home.png)
 
 ### 2. Voice Translator
 - Record your voice for real-time translation.
 - Features waveform animation to visualize speech input.
 - Utilizes the Web Speech API for speech recognition and synthesis.
+![Translator App](images/speak.png)
 
 ### 3. Text Translator
 - Manually input text and select source and target languages for translation.
 - Instant translation with options to copy or share the translated text.
+![Translator App](images/text.png)
 
 ## JavaScript Functionality
 
@@ -56,6 +57,7 @@ Navigate through the app’s features with links to the **Voice Translator** and
 - **Store History:** Save translation history with a delay.
 - **Display History:** Show translation history in a modal with options to save, delete, clear, and download.
 - **Download History:** Export translation history as a text file.
+![Translator App](images/history.png)
 
 ## Future Enhancements
 - Expand language options for broader translation support.
