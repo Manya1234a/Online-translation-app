@@ -31,11 +31,13 @@ Navigate through the app’s features with links to the **Voice Translator** and
 - Record your voice for real-time translation.
 - Features waveform animation to visualize speech input.
 - Utilizes the Web Speech API for speech recognition and synthesis.
+  
 ![Translator App](images/speak.png)
 
 ### 3. Text Translator
 - Manually input text and select source and target languages for translation.
 - Instant translation with options to copy or share the translated text.
+  
 ![Translator App](images/text.png)
 
 ## JavaScript Functionality
@@ -57,6 +59,7 @@ Navigate through the app’s features with links to the **Voice Translator** and
 - **Store History:** Save translation history with a delay.
 - **Display History:** Show translation history in a modal with options to save, delete, clear, and download.
 - **Download History:** Export translation history as a text file.
+
 ![Translator App](images/history.png)
 
 ## Future Enhancements
